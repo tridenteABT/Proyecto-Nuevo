@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "geOtNGHIIqMYVmIYwqofuW22J0Bzn4Q+oh/5cUGYpvar6XveV3ET2VkcUez6vCdBreGRO9ELqXwa8jW/uOGwPA==",
+  "dgSpecHash": "POoNMdngdEtukMh0gyZlMTWeexJfteu+tbBUf/AwC4yCzdIR/fH9LIzgzJegTc2mGMxqQvQm+X/EKdnDx5lrtA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Z28943283\\OneDrive - ATENTO Global\\Documentos\\Proyecto1\\.local\\",
+  "projectFilePath": "C:\\Users\\Z28943283\\OneDrive - ATENTO Global\\Documentos\\Proyecto-Nuevo\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\Z28943283\\.nuget\\packages\\avalonedit\\6.0.1\\avalonedit.6.0.1.nupkg.sha512",
     "C:\\Users\\Z28943283\\.nuget\\packages\\bitmiracle.docotic.pdf\\8.8.14277-dev\\bitmiracle.docotic.pdf.8.8.14277-dev.nupkg.sha512",
