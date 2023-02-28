@@ -603,40 +603,41 @@
                                 <av:PointCollection x:Key="ConnectorLocation">193,77.4 193,107.4 204.4,107.4 204.4,163</av:PointCollection>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <State x:Name="__ReferenceID1" sap2010:Annotation.AnnotationText="Bloque donde haremos otras interacciones con el aplicativo, página web, envio de correos u otras actividades. " DisplayName="1º Actividad" sap:VirtualizedContainerService.HintSize="1479,6908" sap2010:WorkflowViewState.IdRef="State_3">
+                            <State x:Name="__ReferenceID1" sap2010:Annotation.AnnotationText="Bloque donde haremos otras interacciones con el aplicativo, página web, envio de correos u otras actividades. " DisplayName="1º Actividad" sap:VirtualizedContainerService.HintSize="1479,6973" sap2010:WorkflowViewState.IdRef="State_3">
                               <State.Entry>
-                                <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1433,6489" sap2010:WorkflowViewState.IdRef="TryCatch_4">
+                                <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1433,6554" sap2010:WorkflowViewState.IdRef="TryCatch_4">
                                   <TryCatch.Try>
-                                    <Sequence sap:VirtualizedContainerService.HintSize="1395,6261" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                                    <Sequence sap:VirtualizedContainerService.HintSize="1395,6326" sap2010:WorkflowViewState.IdRef="Sequence_30">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <Sequence DisplayName="traduccion de Excel" sap:VirtualizedContainerService.HintSize="1333,3617" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                                      <Sequence DisplayName="traduccion de Excel" sap:VirtualizedContainerService.HintSize="1333,3682" sap2010:WorkflowViewState.IdRef="Sequence_31">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: traductor - Buscar con Google" sap:VirtualizedContainerService.HintSize="688,3506" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="7fbe306d-d0d7-4d96-8575-9640d9bb4633" Version="V2">
+                                        <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: traductor - Buscar con Google" sap:VirtualizedContainerService.HintSize="688,3571" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="7fbe306d-d0d7-4d96-8575-9640d9bb4633" Version="V2">
                                           <uix:NApplicationCard.Body>
                                             <ActivityAction x:TypeArguments="x:Object">
                                               <ActivityAction.Argument>
                                                 <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                                               </ActivityAction.Argument>
-                                              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="654,3289" sap2010:WorkflowViewState.IdRef="Sequence_41">
+                                              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="654,3354" sap2010:WorkflowViewState.IdRef="Sequence_41">
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                   </scg:Dictionary>
                                                 </sap:WorkflowViewStateService.ViewState>
-                                                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="592,3174" sap2010:WorkflowViewState.IdRef="Sequence_40">
+                                                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="592,3239" sap2010:WorkflowViewState.IdRef="Sequence_40">
                                                   <sap:WorkflowViewStateService.ViewState>
                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
+                                                  <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="530,25" sap2010:WorkflowViewState.IdRef="MaximizeWindow_1" />
                                                   <Assign sap:VirtualizedContainerService.HintSize="530,82" sap2010:WorkflowViewState.IdRef="Assign_25">
                                                     <Assign.To>
                                                       <OutArgument x:TypeArguments="x:String">[traducirDeIngles]</OutArgument>
