@@ -154,11 +154,11 @@
           <av:PointCollection x:Key="ConnectorLocation">250,69.9 280,69.9 280,68.2 330,68.2</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <State x:Name="__ReferenceID5" sap2010:Annotation.AnnotationText="Lectura del &quot;Project Name&quot;, &quot;deserialized Conf.Json&quot; y &quot;Get Credentials&quot;" DisplayName="Init Process" sap:VirtualizedContainerService.HintSize="244,119" sap2010:WorkflowViewState.IdRef="State_7">
+      <State x:Name="__ReferenceID5" sap2010:Annotation.AnnotationText="Lectura del &quot;Project Name&quot;, &quot;deserialized Conf.Json&quot; y &quot;Get Credentials&quot;" DisplayName="Init Process" sap:VirtualizedContainerService.HintSize="740,2991" sap2010:WorkflowViewState.IdRef="State_7">
         <State.Entry>
-          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="694,2541" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="694,2572" sap2010:WorkflowViewState.IdRef="TryCatch_1">
             <TryCatch.Try>
-              <Sequence sap:VirtualizedContainerService.HintSize="656,2313" sap2010:WorkflowViewState.IdRef="Sequence_10">
+              <Sequence sap:VirtualizedContainerService.HintSize="656,2344" sap2010:WorkflowViewState.IdRef="Sequence_10">
                 <Sequence.Variables>
                   <Variable x:TypeArguments="x:String" Name="pdfText" />
                   <Variable x:TypeArguments="sd:DataTable" Name="pruebaDT" />
@@ -281,12 +281,17 @@
                     </Sequence>
                   </ui:CommentOut.Body>
                 </ui:CommentOut>
-                <ui:ReadRange AddHeaders="True" DataTable="[dt_proyecto]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="594,88" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Hoja1" WorkbookPath="proyectos.xlsx">
+                <ui:ReadRange AddHeaders="True" sap2010:Annotation.AnnotationText="Lectura d eexcel del proyecto" DataTable="[dt_proyecto]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="594,119" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Hoja1" WorkbookPath="proyectos.xlsx">
                   <ui:ReadRange.Range>
                     <InArgument x:TypeArguments="x:String">
                       <Literal x:TypeArguments="x:String" Value="" />
                     </InArgument>
                   </ui:ReadRange.Range>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
                 </ui:ReadRange>
               </Sequence>
             </TryCatch.Try>
@@ -302,7 +307,7 @@
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                   </ActivityAction.Argument>
-                  <Sequence sap:VirtualizedContainerService.HintSize="496,315" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                  <Sequence sap:VirtualizedContainerService.HintSize="496,311" sap2010:WorkflowViewState.IdRef="Sequence_11">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -590,7 +595,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                     <Transition.To>
-                      <State x:Name="__ReferenceID4" sap2010:Annotation.AnnotationText="Interacciones con el aplicativo, envio de emails u otras acciones del proceso.&#xA;&#xA;Se pueden colocar tantas maquinas de estado como se necesiten." DisplayName="Process Transaction" sap:VirtualizedContainerService.HintSize="771,1055" sap2010:WorkflowViewState.IdRef="State_5">
+                      <State x:Name="__ReferenceID4" sap2010:Annotation.AnnotationText="Interacciones con el aplicativo, envio de emails u otras acciones del proceso.&#xA;&#xA;Se pueden colocar tantas maquinas de estado como se necesiten." DisplayName="Process Transaction" sap:VirtualizedContainerService.HintSize="237,164" sap2010:WorkflowViewState.IdRef="State_5">
                         <State.Entry>
                           <StateMachine InitialState="{x:Reference __ReferenceID1}" DisplayName="State Machine" sap:VirtualizedContainerService.HintSize="725,637" sap2010:WorkflowViewState.IdRef="StateMachine_1">
                             <sap:WorkflowViewStateService.ViewState>
