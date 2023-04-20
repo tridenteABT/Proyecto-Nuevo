@@ -10689,7 +10689,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Z28943283\\.nuget\\packages\\": {}
+    "C:\\Users\\Z28943283\\.nuget\\packages\\": {},
+    "C:\\Users\\Z28943283\\AppData\\Local\\UiPath\\NugetFallbackFolder": {}
   },
   "project": {
     "restore": {
@@ -10697,7 +10698,10 @@
       "projectName": "Plantilla Reframwork",
       "projectPath": "C:\\Users\\Z28943283\\OneDrive - ATENTO Global\\Documentos\\Proyecto-Nuevo\\.local",
       "packagesPath": "C:\\Users\\Z28943283\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Z28943283\\OneDrive - ATENTO Global\\Documentos\\Proyecto-Nuevo\\.local"
+      "outputPath": "C:\\Users\\Z28943283\\OneDrive - ATENTO Global\\Documentos\\Proyecto-Nuevo\\.local",
+      "fallbackFolders": [
+        "C:\\Users\\Z28943283\\AppData\\Local\\UiPath\\NugetFallbackFolder"
+      ]
     },
     "frameworks": {
       "net461": {
